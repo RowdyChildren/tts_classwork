@@ -1,4 +1,4 @@
-todays_temp = 60
+
 
 if todays_temp > 50
 	puts "it's a nice day!"
