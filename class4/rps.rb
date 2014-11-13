@@ -50,7 +50,7 @@ while count <= times
 count += 1
 
 rps = ["rock", "paper", "scissors"]
-if ARGV[0].downcase == "test"
+if ARGV[0] == 1
 rps = ["scissors"]
 puts "TEST MODE: computer will always play scissors!"
 end
