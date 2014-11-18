@@ -14,7 +14,7 @@ class Person
 	end
 end
 
-class Student < Person
+class Student
 	def learning 
 		return "#{@first_name} is Learning!"
 	end
