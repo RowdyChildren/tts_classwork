@@ -18,3 +18,6 @@ end
 a = Animal.new("500lbs", "Orange and Black", "Cheetah", "5", "5ft tall","Acinonyx")
 
 puts a.what
+
+
+#blash Blah
