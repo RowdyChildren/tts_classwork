@@ -13,3 +13,10 @@ class Person
 		puts "#{@first_name} #{@last_name} is a #{@age} old #{@gender}"
 	end
 end
+
+intro = Person.new()
+intro.first_name = "Riley"
+intro.last_name = "Childs"
+intro.gender = "male"
+intro.age = "17"
+intro.introduction
