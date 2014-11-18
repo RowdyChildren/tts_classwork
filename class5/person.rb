@@ -14,9 +14,18 @@ class Person
 	end
 end
 
-intro = Person.new()
-intro.first_name = "Riley"
-intro.last_name = "Childs"
-intro.gender = "male"
-intro.age = "17"
-intro.introduction
+class Student < Person
+	def learning 
+		return "#{@first_name} is Learning!"
+	end
+end
+# intro = Person.new()
+# intro.first_name = "Riley"
+# intro.last_name = "Childs"
+# intro.gender = "male"
+# intro.age = "17"
+# intro.introduction
+
+s = Student.new("Riley", "Childs", "Male", "17")
+puts s.learning
+s.introduction
