@@ -52,3 +52,4 @@ end
 cur_temp = ARGV[0].to_i
 
 puts going_hiking (cur_temp)
+ 

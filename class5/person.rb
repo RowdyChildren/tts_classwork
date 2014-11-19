@@ -14,9 +14,9 @@ class Person
 	end
 end
 
-class Student
-	def learning 
-		return "#{@first_name} is Learning!"
+class Teacher < Person
+	def teaching 
+		return "#{@first_name} is Teaching!"
 	end
 end
 # intro = Person.new()
@@ -26,6 +26,6 @@ end
 # intro.age = "17"
 # intro.introduction
 
-s = Student.new("Riley", "Childs", "Male", "17")
-puts s.learning
+s = Teacher.new("Riley", "Childs", "Male", "17")
+puts s.teaching
 s.introduction

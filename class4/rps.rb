@@ -1,3 +1,4 @@
+#declare our methods
 def check_win(one, two)
 	if one.downcase == "scissors" and two.downcase == "paper"
 		return 1
@@ -15,7 +16,6 @@ def check_win(one, two)
 		return false
 	end
 end
-
 def check_rps(input)
 	if input.downcase == "rock" || input.downcase == "paper" || input.downcase == "scissors"
 		return true
